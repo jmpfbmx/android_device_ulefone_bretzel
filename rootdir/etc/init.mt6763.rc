@@ -1,4 +1,8 @@
 on init
+    # Override fingerprint
+    setprop ro.build.fingerprint ${ro.vendor.build.fingerprint}
+
+on init
     setprop sys.usb.ffs.aio_compat 1
     setprop persist.adb.nonblocking_ffs 0
     setprop ro.adb.nonblocking_ffs 0

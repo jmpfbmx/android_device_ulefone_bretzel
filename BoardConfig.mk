@@ -61,10 +61,13 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 
+<<<<<<< HEAD
 # Lineage hardware
 BOARD_HARDWARE_CLASS += \
     $(COMMON_PATH)/lineagehw
 
+=======
+>>>>>>> c04aed547ab411704e1c8c8b7f411387fb0279c5
 # Netd
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PHONY_TARGETS := true
