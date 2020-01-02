@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ACCDET.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/ACCDET.kl \
     $(LOCAL_PATH)/keylayout/mtk-kpd.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/mtk-kpd.kl
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_mediatek_video.xml
+
 # Overlay
 PRODUCT_PACKAGES += \
     DummyOverlay
