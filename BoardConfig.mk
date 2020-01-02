@@ -12,7 +12,7 @@ BOARD_VENDOR := umidigi
 TARGET_FLATTEN_APEX := true
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := breeze, A5Pro, A5_Pro, A5_PRO, Breeze
+TARGET_OTA_ASSERT_DEVICE := breeze, A5Pro, A5_Pro, A5_PRO, Breeze, a5_pro, umidigi a5_pro, UMIDIGI A5_PRO, UMIDIGI A5_Pro
 
 # Architecture
 TARGET_ARCH := arm64
