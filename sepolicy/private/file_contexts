@@ -1,2 +1,4 @@
 # Kernel Power Off Charging (KPOC)
-/system/bin/kpoc_charger u:object_r:kpoc_charger_exec:s0
+/charger		u:object_r:rootfs:s0
+/system/bin/charger		u:object_r:charger_exec:s0
+/system/bin/kpoc_charger		u:object_r:kpoc_charger_exec:s0
