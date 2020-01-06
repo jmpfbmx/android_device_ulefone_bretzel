@@ -17,8 +17,6 @@ on init
     # Override vendor fstab
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6763 /vendor/etc/fstab.mt6763 bind
-    # Override codec config
-    mount none /system/etc/media_codecs_mediatek_video.xml /vendor/etc/media_codecs_mediatek_video.xml bind
 
 on zygote-start
     # Custom overrides that need to happen AFTER things like Magisk have loaded
@@ -26,6 +24,4 @@ on zygote-start
     # over the Magisk ones
     # Remove default overlay to frameworks-res so that ours can work
     mount none /system/overlay/DummyOverlay.apk /vendor/overlay/framework-res__auto_generated_rro.apk bind
-    # Override codec config again in case of Magisk
-    mount none /system/etc/media_codecs_mediatek_video.xml /vendor/etc/media_codecs_mediatek_video.xml bind
 
