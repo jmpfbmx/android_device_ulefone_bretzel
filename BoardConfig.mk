@@ -11,9 +11,6 @@ BOARD_VENDOR := umidigi
 # APEX
 TARGET_FLATTEN_APEX := true
 
-# Assertions
-TARGET_OTA_ASSERT_DEVICE := breeze, A5Pro, A5_Pro, A5_PRO, Breeze, a5_pro, umidigi a5_pro, UMIDIGI A5_PRO, UMIDIGI A5_Pro
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -92,7 +89,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += vendor/umidigi/breeze
@@ -101,3 +97,5 @@ PRODUCT_SOONG_NAMESPACES += vendor/umidigi/breeze
 BOARD_VNDK_VERSION := current
 PRODUCT_TARGET_VNDK_VERSION := 28
 PRODUCT_EXTRA_VNDK_VERSIONS := 28
+
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

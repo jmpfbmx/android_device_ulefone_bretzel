@@ -1,46 +1,5 @@
 # Hotspot
 bin/netd|c04aed547ab411704e1c8c8b7f411387fb0279c5
 
-# Audio
-lib/libaaudioservice.so
-lib/libaudioflinger.so
-lib/libaudiopolicymanagerdefault.so
-lib/libaudioutils.so
-lib/libaaudio.so
-lib/libaudiomanager.so
-lib/libaudiopolicymanager.so
-lib/libbessound_hd_mtk.so
-lib/libaudioclient.so
-lib/libaudio_param_parser-sys.so
-lib/libaudiopolicyservice.so
-lib/libmtkaudio_utils.so
-lib/libaudiocomponentengine.so
-lib/libaudiopolicycustomextensions.so
-lib/libaudioprocessing.so
-lib/libsoundtriggerservice.so
-lib/libaudiocustparam.so
-lib/libaudiopolicyenginedefault.so
-lib/libaudiotoolkit.so
-lib64/libaudioflinger.so
-lib64/libaudiopolicymanagerdefault.so
-lib64/libaaudio.so
-lib64/libaudiomanager.so
-lib64/libaudiopolicymanager.so
-lib64/libbessound_hd_mtk.so
-lib64/libaudioclient.so
-lib64/libaudio_param_parser-sys.so
-lib64/libaudiopolicyservice.so
-lib64/libmtkaudio_utils.so
-lib64/libaudiocomponentengine.so
-lib64/libaudiopolicycustomextensions.so
-lib64/libaudioprocessing.so
-lib64/libsoundtriggerservice.so
-lib64/libaudiocustparam.so
-lib64/libaudiopolicyenginedefault.so
-lib64/libaudiotoolkit.so
-
-# Offline Charging
-bin/kpoc_charger
-etc/init/kpoc_charger.rc
-lib/libshowlogo.so
-lib/libsysenv_system.so
+# FCamera
+-app/FCamera/FCamera.apk
