@@ -83,6 +83,8 @@ if [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt" ]; then
             "${KANG}" --section "${SECTION}"
 fi
 
-DEVICE_BLOB_ROOT="${LINEAGE_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
+BLOB_ROOT="${LINEAGE_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
+
+sed -i 's/AT+EAIC=2/AT+EAIC=3/g' "${BLOB_ROOT}/lib64/libmtk-ril.so"
 
 source "${MY_DIR}/setup-makefiles.sh"

@@ -18,6 +18,9 @@ on init
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6763 /vendor/etc/fstab.mt6763 bind
 
+    # bind mount libmtk-ril.so
+    mount none /system/lib64/libmtk-ril.so /vendor/lib64/libmtk-ril.so bind
+
 on zygote-start
     # Custom overrides that need to happen AFTER things like Magisk have loaded
     # zygote-start is re-run after decryption, so we can be sure these will be mounted
