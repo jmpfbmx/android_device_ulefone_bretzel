@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_breeze.mk
+    $(LOCAL_DIR)/aosp_breeze.mk
