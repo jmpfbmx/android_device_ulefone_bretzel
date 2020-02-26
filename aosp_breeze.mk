@@ -36,7 +36,7 @@ TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "UMIDIGI/A5_Pro/A5_Pro:9/PPR1.180610.011/1559618636:user/release-keys"
+BUILD_FINGERPRINT := "google/walleye/walleye:10/QQ1A.200205.002/6084386:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="A5_Pro-user 9 PPR1.180610.011 1559618636 release-keys" \
