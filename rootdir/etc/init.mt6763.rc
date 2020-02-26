@@ -17,8 +17,7 @@ on init
     # Override vendor fstab
     # We only need it to be overridden before things are mounted
     mount none /system/etc/fstab.mt6763 /vendor/etc/fstab.mt6763 bind
-
-    # bind mount libmtk-ril.so
+    # bind mount ril
     mount none /system/lib64/libmtk-ril.so /vendor/lib64/libmtk-ril.so bind
 
 on zygote-start
