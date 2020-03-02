@@ -5,9 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Release name
-PRODUCT_RELEASE_NAME := A5_Pro
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -35,13 +32,14 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+# Build info
 BUILD_FINGERPRINT := "UMIDIGI/A5_Pro/A5_Pro:9/PPR1.180610.011/1559618636:user/release-keys"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="A5_Pro-user 9 PPR1.180610.011 1559618636 release-keys" \
     TARGET_DEVICE="A5_Pro" \
-    PRODUCT_NAME="A5_Pro"
+    PRODUCT_NAME="A5_Pro" \
+    PRIVATE_BUILD_DESC="A5_Pro-user 9 PPR1.180610.011 1559618636 release-keys"
+
+PLATFORM_SECURITY_PATCH_OVERRIDE := 2019-06-05
 
 # GMS as per stock
 PRODUCT_GMS_CLIENTID_BASE := android-agold
