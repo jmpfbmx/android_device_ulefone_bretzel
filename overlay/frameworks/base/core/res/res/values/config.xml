@@ -133,7 +133,7 @@
     <bool name="config_showNavigationBar">true</bool>
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
-    <bool name="config_swipe_up_gesture_setting_available">false</bool>
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
 
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">false</bool>
