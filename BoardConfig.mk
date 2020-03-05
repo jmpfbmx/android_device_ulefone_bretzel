@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/umidigi/breeze
+DEVICE_PATH := device/UMIDIGI/A5_Pro
 
-BOARD_VENDOR := umidigi
+BOARD_VENDOR := UMIDIGI
 
 # APEX
 TARGET_FLATTEN_APEX := true
@@ -91,7 +91,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Soong
-PRODUCT_SOONG_NAMESPACES += vendor/umidigi/breeze
+PRODUCT_SOONG_NAMESPACES += vendor/UMIDIGI/A5_Pro
 
 # Treble
 BOARD_VNDK_VERSION := current

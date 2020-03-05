@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=breeze
-VENDOR=umidigi
+DEVICE=A5_Pro
+VENDOR=UMIDIGI
 INITIAL_COPYRIGHT_YEAR=2019
 
 # Load extract_utils and do some sanity checks
@@ -38,7 +38,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${PixelExperience_ROOT}" true
 
 # Copyright headers and guards
-write_headers "breeze"
+write_headers "A5_Pro"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=breeze
-VENDOR=umidigi
+DEVICE=A5_Pro
+VENDOR=UMIDIGI
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
