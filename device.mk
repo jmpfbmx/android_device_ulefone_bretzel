@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap
+    
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
 
 # Init cripts
 PRODUCT_PACKAGES += \
