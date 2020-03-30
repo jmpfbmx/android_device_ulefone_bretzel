@@ -36,6 +36,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
+# Ringtone
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=The_big_adventure.ogg \
+
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="A5_Pro" \
