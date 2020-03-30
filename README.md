@@ -2,6 +2,7 @@
 - Havoc OS
 - Lineage OS
 - Pixel Experience / Plus
+- MSM-Xtended Project
 
 There is no official codename for this phone, so everything in this repository is just named `breeze`.
 
