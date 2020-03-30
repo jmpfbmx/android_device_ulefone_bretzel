@@ -1,3 +1,8 @@
+## Common android 10 build tree for:
+- Havoc OS
+- Lineage OS
+- Pixel Experience / Plus
+
 There is no official codename for this phone, so everything in this repository is just named `breeze`.
 
 UMIDIGI A5 Pro (codename: `breeze`) Gets under budget level wing from UMIDIGI.
