@@ -77,3 +77,6 @@ sys.ipo.disable=1
 # Google
 ro.opa.eligible_device=true
 ro.build.release_type=release
+
+# Disable debugging strict mode toasts
+persist.sys.strictmode.disable=true
