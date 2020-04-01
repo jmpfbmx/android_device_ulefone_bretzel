@@ -35,3 +35,6 @@ More Feature | Aluminum Body, Front Glass Body Design, LTE Cat7 300 Mbps Downloa
 
 ### Patches for fix fingerprint
 - https://github.com/UMIDIGI-MT6763-Development/frameworks_base_biometrics
+
+### Patches for fix offline charging
+- https://github.com/UMIDIGI-MT6763-Development/system_core/blob/master/fix-offline-charger.patch
