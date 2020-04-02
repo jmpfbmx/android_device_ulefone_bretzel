@@ -21,4 +21,9 @@ on init
     mount none /system/lib64/libmtk-ril.so /vendor/lib64/libmtk-ril.so bind
 
 on post-fs
+    # Disable vendor overlays
     mount none /dev/null vendor/overlay/framework-res__auto_generated_rro.apk bind
+    mount none /dev/null vendor/overlay/SysuiDarkTheme/SysuiDarkThemeOverlay.apk bind
+    mount none /dev/null vendor/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay.apk bind
+    mount none /dev/null vendor/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay.apk bind
+    mount none /dev/null vendor/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay.apk bind
