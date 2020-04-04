@@ -1,6 +1,6 @@
 ## Common android 10 build tree for:
 - Havoc OS
-- Lineage OS
+- Lineage OS / crDroidAndroid
 - Pixel Experience / Plus
 - MSM-Xtended Project
 
