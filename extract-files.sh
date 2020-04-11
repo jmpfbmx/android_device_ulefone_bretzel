@@ -85,6 +85,4 @@ fi
 
 BLOB_ROOT="${PixelExperience_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
 
-sed -i 's/AT+EAIC=2/AT+EAIC=3/g' "${BLOB_ROOT}/lib64/libmtk-ril.so"
-
 source "${MY_DIR}/setup-makefiles.sh"
