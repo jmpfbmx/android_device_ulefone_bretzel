@@ -13,6 +13,9 @@ $(call inherit-product-if-exists, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+
+# Overlay from mtk-telephony-ext
+include vendor/mediatek/hardware/telephony-ext/overlay.mk
     
 # A/B
 AB_OTA_UPDATER := false
@@ -58,3 +61,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.xml
     	
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    mtk-telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
