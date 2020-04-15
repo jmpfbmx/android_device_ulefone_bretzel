@@ -28,6 +28,11 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap
+
+# Display
+PRODUCT_PACKAGES += \
+    libvulkan \
+    libRSDriver_mtk
     
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
@@ -64,6 +69,8 @@ PRODUCT_COPY_FILES += \
     	
 # Telephony
 PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml \
     telephony-ext \
     mtk-telephony-ext
 
