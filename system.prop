@@ -17,6 +17,8 @@ qemu.hw.mainkeys=0
 # Camera
 persist.camera.HAL3.enabled=1
 persist.camera.eis.enable=1
+camera.disable_zsl_mode=true \
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.android.GoogleCamera
 
 # Kernel
 ro.kernel.zio=38,108,105,16
