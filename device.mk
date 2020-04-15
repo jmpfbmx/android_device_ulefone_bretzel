@@ -36,7 +36,8 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Init cripts
 PRODUCT_PACKAGES += \
     init.mt6763.rc \
-    fstab.mt6763
+    fstab.mt6763 \
+    init.safailnet.rc
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
