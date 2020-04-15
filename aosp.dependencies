@@ -11,6 +11,12 @@
     "target_path": "vendor/UMIDIGI/A5_Pro",
     "branch":      "master"
   },
+    {
+    "remote":      "github",
+    "repository":  "LineageOS/android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "branch":      "lineage-17.1"
+  },
   {
     "remote":      "github",
     "repository":  "AgentFabulous/vendor_mediatek_hardware_telephony-ext",
