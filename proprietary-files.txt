@@ -1,8 +1,8 @@
 # Hotspot
 bin/netd|c04aed547ab411704e1c8c8b7f411387fb0279c5
 
-# FCamera
--app/FCamera/FCamera.apk
+# CameraGo
+-app/CameraGo/CameraGo.apk
 
 # Offline Charging
 bin/kpoc_charger
