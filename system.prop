@@ -15,8 +15,8 @@ ro.sys.usb.charging.only=yes
 qemu.hw.mainkeys=0
 
 # Camera
-persist.camera.HAL3.enabled=1
-persist.camera.eis.enable=1
+persist.camera.HAL3.enabled=1 \
+persist.camera.eis.enable=1 \
 camera.disable_zsl_mode=true \
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.android.GoogleCamera
 
@@ -78,9 +78,8 @@ sys.ipo.disable=1
 
 # IMS
 persist.dbg.volte_avail_ovr=1 \
-persist.dbg.vt_avail_ovr=1  \
+persist.dbg.vt_avail_ovr=1 \
 persist.dbg.wfc_avail_ovr=1 \
-persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Memory optimizations
 ro.sys.fw.bservice_enable=true \
