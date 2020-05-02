@@ -13,9 +13,6 @@ $(call inherit-product-if-exists, vendor/UMIDIGI/A5_Pro/A5_Pro-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
-
-# Overlay from mtk-telephony-ext
-include vendor/mediatek/hardware/telephony-ext/overlay.mk
     
 # A/B
 AB_OTA_UPDATER := false
@@ -70,13 +67,3 @@ PRODUCT_COPY_FILES += \
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-mediatek
-
-# RIL
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    ims_ext_common.xml \
-    telephony-ext \
-    mtk-telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
