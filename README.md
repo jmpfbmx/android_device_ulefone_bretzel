@@ -1,3 +1,17 @@
+## Join my telegram channel to get latest updates:
+<p>
+<a href="https://t.me/UMIDIGIA5Pro">
+  <img src="https://img.shields.io/badge/Telegram-UMIDIGI A5 Pro Updates-yellow" alt="Hadenix">
+</a>
+</p>
+
+## You can Donate if you like my work:
+<p>
+<a href="https://money.yandex.ru/to/410018830733273">
+  <img src="https://img.shields.io/badge/YMoney-Hadenix-red" alt="Hadenix">
+</a>
+</p>
+
 ## Common android 10 build tree for:
 <p>
 <a href="https://github.com/Havoc-OS/android_manifest">
