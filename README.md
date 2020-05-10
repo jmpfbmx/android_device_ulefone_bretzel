@@ -1,14 +1,27 @@
 ## Common android 10 build tree for:
-- Havoc OS
-- Lineage OS
-- Pixel Experience / Plus
-- MSM-Xtended Project
+<p>
+<a href="https://github.com/Havoc-OS/android_manifest">
+  <img src="https://img.shields.io/badge/manifest-Havoc%20OS-brightgreen" alt="Hadenix">
+</a>
 
-There is no official codename for this phone, so everything in this repository is just named `breeze`.
+<a href="https://github.com/LineageOS/android">
+  <img src="https://img.shields.io/badge/manifest-LineageOS-brightgreen" alt="Hadenix">
+</a>
 
-UMIDIGI A5 Pro (codename: `breeze`) Gets under budget level wing from UMIDIGI.
+<a href="https://github.com/PixelExperience/manifest">
+  <img src="https://img.shields.io/badge/manifest-Pixel Experience / Plus-brightgreen" alt="Hadenix">
+</a>
 
-`breeze` released in 2019.
+<a href="https://github.com/Project-Xtended/manifest">
+  <img src="https://img.shields.io/badge/manifest-MSM Xtended-brightgreen" alt="Hadenix">
+</a>
+</p>
+
+There is no official codename for this phone, so everything in this repository is just named ![Hadenix](https://img.shields.io/badge/-breeze-blue).
+
+UMIDIGI A5 Pro (codename: ![Hadenix](https://img.shields.io/badge/-breeze-blue) ) Gets under budget level wing from UMIDIGI.
+
+![Hadenix](https://img.shields.io/badge/-breeze-blue) released in 2019.
 
 ![Hadenix](http://Hadenix.github.io/images/a5dev.png)
 
