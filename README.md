@@ -42,12 +42,27 @@ Display | 6.3-inches IPS FHD+ Display (1080 x 2280 Pixels) 24-bit
 Camera | 16MP + 8MP + 5MP with Dual-LED and AF Triple Rear Camera | 16MP  Front Camera
 More Feature | Aluminum Body, Front Glass Body Design, LTE Cat7 300 Mbps Download, 100 Mbps Upload, HSPA+, Computer Sync, OTA Sync, VoLTE, Rounded Edges, OTG Support, Secure and Fast Fingerprint Sensor, 5V/2A Charger Output Power.
 
-### Patches for fix video
-- https://github.com/UMIDIGI-MT6763-Development/external_skia_src_gpu
-- https://github.com/UMIDIGI-MT6763-Development/frameworks_base_libs_hwui_surfacetexture
+### Patches for fix video:
+<p>
+<a href="https://github.com/UMIDIGI-MT6763-Development/external_skia_src_gpu">
+  <img src="https://img.shields.io/badge/external-skia/src/gpu-orange" alt="Hadenix">
+</a>
 
-### Patches for fix fingerprint
-- https://github.com/UMIDIGI-MT6763-Development/frameworks_base_biometrics
+<a href="https://github.com/UMIDIGI-MT6763-Development/frameworks_base_libs_hwui_surfacetexture">
+  <img src="https://img.shields.io/badge/frameworks-base/libs/hwui/surfacetexture-orange" alt="Hadenix">
+</a>
+</p>
 
-### Patches for fix offline charging
-- https://github.com/UMIDIGI-MT6763-Development/system_core/blob/master/fix-offline-charger.patch
+### Patches for fix fingerprint:
+<p>
+<a href="https://github.com/UMIDIGI-MT6763-Development/frameworks_base_biometrics">
+  <img src="https://img.shields.io/badge/frameworks-base/biometrics-orange" alt="Hadenix">
+</a>
+</p>
+
+### Patches for fix offline charging:
+<p>
+<a href="https://github.com/UMIDIGI-MT6763-Development/system_core/blob/master/fix-offline-charger.patch">
+  <img src="https://img.shields.io/badge/system-core/rootdir-orange" alt="Hadenix">
+</a>
+</p>
