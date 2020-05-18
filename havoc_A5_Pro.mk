@@ -41,7 +41,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="A5_Pro-user 9 PPR1.180610.011 1559618636 release-keys"
 
 # Fingerprint
-BUILD_FINGERPRINT := "google/flame/flame:10/QQ2A.200405.005/6254899:user/release-keys"
+BUILD_FINGERPRINT := "google/flame/flame:10/QQ2A.200501.001.B2/6352890:user/release-keys"
 
 # GMS as per stock
 PRODUCT_GMS_CLIENTID_BASE := android-umidigi
