@@ -29,6 +29,10 @@
 <a href="https://github.com/Project-Xtended/manifest">
   <img src="https://img.shields.io/badge/manifest-MSM Xtended-brightgreen" alt="Hadenix">
 </a>
+
+<a href="https://github.com/BlissRoms/platform_manifest">
+  <img src="https://img.shields.io/badge/manifest-BlissROMs-brightgreen" alt="Hadenix">
+</a>
 </p>
 
 There is no official codename for this phone, so everything in this repository is just named ![Hadenix](https://img.shields.io/badge/-breeze-blue).
