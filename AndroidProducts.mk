@@ -26,6 +26,9 @@ PRODUCT_MAKEFILES += \
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/xtended_A5_Pro.mk
 
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/bliss_A5_Pro.mk
+
 COMMON_LUNCH_CHOICES := \
     aosp_A5_Pro-userdebug
 
@@ -37,3 +40,6 @@ COMMON_LUNCH_CHOICES += \
     
 COMMON_LUNCH_CHOICES += \
     xtended_A5_Pro-userdebug
+
+COMMON_LUNCH_CHOICES += \
+    bliss_A5_Pro-userdebug
