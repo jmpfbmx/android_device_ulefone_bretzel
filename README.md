@@ -35,6 +35,8 @@
 </a>
 </p>
 
+This is a lightweight tree for building firmware with a built-in: stock kernel with official firmware. This tree does not include building a vendor, only a system.
+
 There is no official codename for this phone, so everything in this repository is just named ![Hadenix](https://img.shields.io/badge/-breeze-blue).
 
 UMIDIGI A5 Pro (codename: ![Hadenix](https://img.shields.io/badge/-breeze-blue) ) Gets under budget level wing from UMIDIGI.
