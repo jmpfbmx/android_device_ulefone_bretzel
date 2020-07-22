@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6763 \
     init.safailnet.rc
 
+#Symbols
+PRODUCT_PACKAGES += \
+    libshim_showlogo
+
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/mtk-kpd.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/mtk-kpd.idc \
