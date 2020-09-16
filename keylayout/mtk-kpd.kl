@@ -35,6 +35,10 @@ key 113   MUTE
 key 116   POWER
 key 212   CAMERA
 key 211   FOCUS
+key 301   PTT_RECORD
+key 302   CUSTOM
+key 303   SOS
+
 
 key 16    Q
 key 17    W
@@ -94,8 +98,3 @@ key 163   MEDIA_NEXT
 key 165   MEDIA_PREVIOUS
 key 168   MEDIA_REWIND
 key 159   MEDIA_FAST_FORWARD
-
-# agold add
-key 249   FUNC1
-key 250   FUNC2
-
