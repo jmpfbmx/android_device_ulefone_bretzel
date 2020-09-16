@@ -4,6 +4,9 @@ bin/netd|c04aed547ab411704e1c8c8b7f411387fb0279c5
 # CameraGo
 -app/CameraGo/CameraGo.apk
 
+# RIL
+vendor/lib64/libmtk-ril.so:lib64/libmtk-ril.so
+
 # Offline Charging
 bin/kpoc_charger
 etc/init/kpoc_charger.rc
