@@ -12,6 +12,8 @@ VENDOR=Ulefone
 
 INITIAL_COPYRIGHT_YEAR=2019
 
+BLOB_ROOT="vendor/${VENDOR}/${DEVICE}"
+
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
