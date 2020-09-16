@@ -60,4 +60,6 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
+sed -i 's/libicuuc\.so/libicuXD.so/g' "${BLOB_ROOT}/bin/nfcstackp" "${BLOB_ROOT}/lib/libstnfc_nci_jni.so" "${BLOB_ROOT}/lib64/libstnfc_nci_jni.so"
+
 "${MY_DIR}/setup-makefiles.sh"
