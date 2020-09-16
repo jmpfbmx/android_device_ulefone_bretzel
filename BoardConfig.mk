@@ -4,9 +4,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/UMIDIGI/A5_Pro
+DEVICE_PATH := device/ulefone/bretzel
 
-BOARD_VENDOR := UMIDIGI
+BOARD_VENDOR := Ulefone
+
+# Product characteristics
+PRODUCT_AAPT_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_WIDTH := 720
 
 # APEX
 TARGET_FLATTEN_APEX := true
@@ -105,10 +113,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Soong
-PRODUCT_SOONG_NAMESPACES += vendor/UMIDIGI/A5_Pro
+PRODUCT_SOONG_NAMESPACES += vendor/ulefone/bretzel
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-06-05
+VENDOR_SECURITY_PATCH := 2020-05-05
 
 # Treble
 BOARD_VNDK_VERSION := current

@@ -14,32 +14,10 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_A5_Pro.mk
-
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_A5_Pro.mk
-
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/havoc_A5_Pro.mk
-    
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/xtended_A5_Pro.mk
-
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/bliss_A5_Pro.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosp_A5_Pro-userdebug
+    $(LOCAL_DIR)/lineage_bretzel.mk
 
 COMMON_LUNCH_CHOICES += \
-    lineage_A5_Pro-userdebug
-
-COMMON_LUNCH_CHOICES += \
-    havoc_A5_Pro-userdebug
-    
-COMMON_LUNCH_CHOICES += \
-    xtended_A5_Pro-userdebug
-
-COMMON_LUNCH_CHOICES += \
-    bliss_A5_Pro-userdebug
+    lineage_bretzel-eng \
+    lineage_bretzel-user \
+    lineage_bretzel-userdebug

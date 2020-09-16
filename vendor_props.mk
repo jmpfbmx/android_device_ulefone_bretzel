@@ -7,5 +7,5 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.release_type=release \
     ro.vendor.build.real.device=true \
-    vendor.product.device=A5_Pro \
-    vendor.product.manufacturer=UMIDIGI
+    vendor.product.device=bretzel \
+    vendor.product.manufacturer=Ulefone

@@ -1,11 +1,10 @@
-
 # Performance
-ro.mtk_perf_simple_start_win=1 \
-ro.mtk_perf_fast_start_win=1 \
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
 
 # RIL
-vendor.rild.libpath=/vendor/lib64/libmtk-ril.so \
+vendor.rild.libpath=/vendor/lib64/libmtk-ril.so
 vendor.rild.libargs=-d/dev/ttyC0
 
 # USB Charge only function
@@ -15,9 +14,9 @@ ro.sys.usb.charging.only=yes
 qemu.hw.mainkeys=0
 
 # Camera
-persist.camera.HAL3.enabled=1 \
-persist.camera.eis.enable=1 \
-camera.disable_zsl_mode=true \
+persist.camera.HAL3.enabled=1
+persist.camera.eis.enable=1
+camera.disable_zsl_mode=true
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.android.GoogleCamera
 
 # Kernel
@@ -77,10 +76,10 @@ ro.zygote.preload.enable=0
 sys.ipo.disable=1
 
 # Memory optimizations
-ro.sys.fw.bservice_enable=true \
-ro.sys.fw.bservice_limit=5 \
-ro.sys.fw.bservice_age=5000 \
-ro.am.reschedule_service=true \
+ro.sys.fw.bservice_enable=true
+ro.sys.fw.bservice_limit=5
+ro.sys.fw.bservice_age=5000
+ro.am.reschedule_service=true
 ro.sys.fw.bg_apps_limit=24
 
 # Google
@@ -89,4 +88,3 @@ ro.build.release_type=release
 
 # Disable debugging strict mode toasts
 persist.sys.strictmode.disable=true
-
