@@ -62,8 +62,8 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
-sed -i 's/AT+EAIC=2/AT+EAIC=3/g' "${BLOB_ROOT}/lib64/libmtk-ril.so"
+sed -i 's/AT+EAIC=2/AT+EAIC=3/g' "${BLOB_ROOT}/proprietary/lib64/libmtk-ril.so"
 
-sed -i 's/libicuuc\.so/libicuXD.so/g' "${BLOB_ROOT}/bin/nfcstackp" "${BLOB_ROOT}/lib/libstnfc_nci_jni.so" "${BLOB_ROOT}/lib64/libstnfc_nci_jni.so"
+sed -i 's/libicuuc\.so/libicuXD.so/g' "${BLOB_ROOT}/proprietary/bin/nfcstackp" "${BLOB_ROOT}/proprietary/lib/libstnfc_nci_jni.so" "${BLOB_ROOT}/proprietary/lib64/libstnfc_nci_jni.so"
 
 "${MY_DIR}/setup-makefiles.sh"
