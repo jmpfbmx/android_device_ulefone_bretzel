@@ -8,7 +8,7 @@
 set -e
 
 DEVICE=bretzel
-VENDOR=Ulefone
+VENDOR=ulefone
 
 INITIAL_COPYRIGHT_YEAR=2019
 
