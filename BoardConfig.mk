@@ -8,14 +8,6 @@ DEVICE_PATH := device/ulefone/bretzel
 
 BOARD_VENDOR := Ulefone
 
-# Product characteristics
-PRODUCT_AAPT_CONFIG := xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1440
-TARGET_SCREEN_WIDTH := 720
-
 # APEX
 TARGET_FLATTEN_APEX := true
 

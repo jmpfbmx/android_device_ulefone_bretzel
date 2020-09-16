@@ -13,6 +13,14 @@ $(call inherit-product-if-exists, vendor/ulefone/bretzel/bretzel-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+
+# Product characteristics
+PRODUCT_AAPT_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_WIDTH := 720
     
 # A/B
 AB_OTA_UPDATER := false
