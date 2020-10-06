@@ -1,0 +1,8 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "jmpfbmx/android_vendor_ulefone_bretzel",
+        "target_path":  "vendor/ulefone/bretzel",
+        "revision":     "lineage-17.1"
+    }
+]
