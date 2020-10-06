@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_bretzel.mk
+    $(LOCAL_DIR)/rr_bretzel.mk
 
 COMMON_LUNCH_CHOICES += \
-    lineage_bretzel-eng \
-    lineage_bretzel-user \
-    lineage_bretzel-userdebug
+    rr_bretzel-eng \
+    rr_bretzel-user \
+    rr_bretzel-userdebug

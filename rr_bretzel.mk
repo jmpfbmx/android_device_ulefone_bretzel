@@ -13,8 +13,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from Ulefone Armor X5 device
 $(call inherit-product, device/ulefone/bretzel/device.mk)
 
-# Inherit some common Lineage OS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+TARGET_UNLOCK_FACE := true
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_GAPPS_ARCH := arm64
+
+# Inherit Google Play System Update stuff
+$(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
+
+# Inherit Gapps
+$(call inherit-product, vendor/gapps/gapps.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_RELEASE_NAME := Ulefone Armor X5
@@ -22,7 +31,7 @@ PRODUCT_BRAND := Ulefone
 PRODUCT_DEVICE := bretzel
 PRODUCT_MANUFACTURER := Ulefone
 PRODUCT_MODEL := Armor X5
-PRODUCT_NAME := lineage_bretzel
+PRODUCT_NAME := rr_bretzel
 
 PRODUCT_GMS_CLIENTID_BASE := android-gotron
 
