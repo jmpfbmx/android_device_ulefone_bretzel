@@ -13,16 +13,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from Ulefone Armor X5 device
 $(call inherit-product, device/ulefone/bretzel/device.mk)
 
-# Inherit some common Lineage OS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
+# Boot Animation RES
+TARGET_BOOT_ANIMATION_RES := 720
 # Device identifier. This must come after all inclusions.
 PRODUCT_RELEASE_NAME := Ulefone Armor X5
 PRODUCT_BRAND := Ulefone
 PRODUCT_DEVICE := bretzel
 PRODUCT_MANUFACTURER := Ulefone
 PRODUCT_MODEL := Armor X5
-PRODUCT_NAME := lineage_bretzel
+PRODUCT_NAME := revengeos_bretzel
 
 PRODUCT_GMS_CLIENTID_BASE := android-gotron
 
