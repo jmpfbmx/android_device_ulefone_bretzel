@@ -18,6 +18,10 @@ $(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Boot Animation RES
 TARGET_BOOT_ANIMATION_RES := 720
+
+# Build Official
+REVENGEOS_BUILDTYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_RELEASE_NAME := Ulefone Armor X5
 PRODUCT_BRAND := Ulefone
