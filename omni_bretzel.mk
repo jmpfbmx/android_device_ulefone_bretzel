@@ -43,4 +43,5 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.debuggable=1 \
     ro.allow.mock.location=0
 
-
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.usb.ffs.aio_compat=true
