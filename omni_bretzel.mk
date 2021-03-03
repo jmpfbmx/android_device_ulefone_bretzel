@@ -31,17 +31,3 @@ PRODUCT_NAME := omni_bretzel
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="Ulefone/Armor_X5_EEA/Armor_X5:9/PPR1.180610.011/1587533053:user/release-keys" \
     PRIVATE_BUILD_DESC="full_k63v2_64_bsp-user 9 PPR1.180610.011 1587533053 release-keys"
-
-# enable stock zip packages flash
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.treble.enabled=true \
-    persist.sys.usb.config=mtp \
-    persist.service.adb.enable=1 \
-    persist.service.debuggable=1 \
-    ro.secure=1 \
-    ro.adb.secure=0 \
-    ro.debuggable=1 \
-    ro.allow.mock.location=0
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    sys.usb.ffs.aio_compat=true
