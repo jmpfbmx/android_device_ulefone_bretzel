@@ -50,7 +50,7 @@ PRODUCT_PACKAGES += \
     fstab.mt6763 \
     init.safailnet.rc
 
-#Symbols
+# Shims
 PRODUCT_PACKAGES += \
     libshim_showlogo
 

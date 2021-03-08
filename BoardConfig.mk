@@ -51,7 +51,7 @@ TARGET_NO_BOOTLOADER := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# Symbols
+# Shims
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 # Kernel
