@@ -113,4 +113,5 @@ VENDOR_SECURITY_PATCH := 2020-05-05
 # Treble
 BOARD_VNDK_VERSION := current
 
+# system.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
