@@ -37,6 +37,9 @@ USE_XML_AUDIO_POLICY_CONF := 1
 # Avb
 BOARD_AVB_ENABLE := false
 
+# OTA
+TARGET_OTA_ALLOW_NON_AB := true
+
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
